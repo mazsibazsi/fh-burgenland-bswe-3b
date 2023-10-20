@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 public class CalculatorService {
     // FIXME: add javadoc
     public int divide(final int a, final int b) {
-        // FIXME: implement
-        return -1;
+        return b == 0 ? 0 : a/b;
     }
 }
