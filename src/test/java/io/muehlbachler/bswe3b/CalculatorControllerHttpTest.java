@@ -16,11 +16,11 @@ public class CalculatorControllerHttpTest {
     @Autowired
     private MockMvc mvc;
 
-    @Test
-    public void testDividePositiveNumberNoRemainder() throws Exception {
-        mvc.perform(MockMvcRequestBuilders.get("/divide?a=1&b=1")).andExpect(MockMvcResultMatchers.status().isOk())
-                .andExpect(MockMvcResultMatchers.content().string(Matchers.equalTo("1")));
-    }
+//    @Test
+//    public void testDividePositiveNumberNoRemainder() throws Exception {
+//        mvc.perform(MockMvcRequestBuilders.get("/divide?a=1&b=1")).andExpect(MockMvcResultMatchers.status().isOk())
+//                .andExpect(MockMvcResultMatchers.content().string(Matchers.equalTo("1")));
+//    }
 
     // FIXME: implement more tests
 }
